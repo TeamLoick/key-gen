@@ -1,0 +1,16 @@
+{
+  "name": "key.gen",
+  "version": "1.0.0",
+  "description": "A node js package that give you the oportunity to generate infinite keys/ids",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TeamLock-es/key-gen.git"
+  },
+  "author": "TeamLock.es",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TeamLock-es/key-gen/issues"
+  },
+  "homepage": "https://github.com/TeamLock-es/key-gen#readme"
+}
