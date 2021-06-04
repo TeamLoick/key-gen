@@ -60,4 +60,6 @@ function gen(strength) {
     throw Error(`No such strength "${strength}"`);
   }
 }
-module.exports = gen
+module.exports = {
+    gen
+}
