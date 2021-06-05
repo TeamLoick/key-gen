@@ -1,7 +1,7 @@
 <p align="center">
 	<img align="center" src="https://media.discordapp.net/attachments/847157141122056263/850572010508648468/RenderedImage.png">
 	<br>
-	<a href="https://lockteam.es">Our Website</a>
+	<a href="https://lockteam.es">Website</a>
 </p>
 
 [![Build Status](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2FGraviton-Code-Editor%2FGraviton-App%2Fbadge%3Fref%3Dmaster&style=flat)](https://actions-badge.atrox.dev/Graviton-Code-Editor/Graviton-App/goto?ref=master)
