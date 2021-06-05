@@ -1,5 +1,5 @@
 <p align="center">
-	<img align="center" src="https://media.discordapp.net/attachments/847157141122056263/850572010508648468/RenderedImage.png"  width="256" height="64.5"/>
+	<img align="center" src="https://media.discordapp.net/attachments/847157141122056263/850572010508648468/RenderedImage.png">
 	<br>
 	<a href="https://lockteam.es">Our Website</a>
 </p>
