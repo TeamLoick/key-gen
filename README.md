@@ -1,5 +1,5 @@
 <p align="center">
-	<img align="center" src="https://images-ext-2.discordapp.net/external/xHZQmFJNy-fDmyjVNTE528wQeYbHwWTM_8pVrGGhCZ0/%3Fs%3D280%26v%3D4/https/avatars.githubusercontent.com/u/85367967"  width="256" height="64.5"/>
+	<img align="center" src="https://media.discordapp.net/attachments/847157141122056263/850567475711967302/85367967.png"  width="256" height="64.5"/>
 	<br>
 	<a href="https://graviton.netlify.app">graviton.netlify.app</a>
 </p>
