@@ -1,16 +1,26 @@
 {
-  "name": "key.gen",
-  "version": "1.0.0",
-  "description": "A node js package that give you the oportunity to generate infinite keys/ids",
+  "name": "@teamloick/key.gen",
+  "version": "1.0.1",
+  "description": "A OpenSource node js package that give you the oportunity to generate infinite keys/ids",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/TeamLock-es/key-gen.git"
+    "url": "git+https://github.com/TeamLoick/key-gen.git"
   },
-  "author": "TeamLock.es",
+  "keywords": [
+    "team loick",
+    "loick",
+    "key",
+    "gen",
+    "key gen",
+    "ids",
+    "id",
+    "id gen"
+  ],
+  "author": "loick.team",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/TeamLock-es/key-gen/issues"
+    "url": "https://github.com/TeamLoick/key-gen/issues"
   },
-  "homepage": "https://github.com/TeamLock-es/key-gen#readme"
+  "homepage": "https://github.com/TeamLoick/key-gen#readme"
 }
