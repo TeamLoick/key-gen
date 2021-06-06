@@ -11,7 +11,7 @@ A node js package that give you the oportunity to generate infinite keys/ids.
 ## Installation 
    npm i @teamloick/key.gen
 
-## Usage
+## Usage ⌨️
 
 
     const { gen } = require('key.gen');
