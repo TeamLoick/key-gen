@@ -15,6 +15,7 @@ A node js package that give you the oportunity to generate infinite keys/ids.
 
 ## Usage ⌨️
 
+    ```javascript
     const { gen } = require('key.gen');
     
     var decent = await gen('decent_pw')
@@ -46,3 +47,4 @@ A node js package that give you the oportunity to generate infinite keys/ids.
     
     var wep256 = gen('256_wep')
     //5272D73892D83892AB833F2E9211E
+    ```
