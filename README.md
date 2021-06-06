@@ -2,7 +2,7 @@
 <p align="center">
 	<img align="center" src="https://media.discordapp.net/attachments/847157141122056263/850572010508648468/RenderedImage.png">
 	<br>
-	<a href="https://loick.team">Website</a>
+	<a href="https://www.npmjs.com/package/@teamloick/key.gen">Go to NPM</a>
 </p>
 
 A node js package that give you the oportunity to generate infinite keys/ids.
