@@ -33,7 +33,15 @@ function keyGen(
 
   return key;
 }
-
+function genCustom(length, useLowerCase, useUpperCase, useNumbers, useSpecial) {
+  if(length <= 0) {
+    throw Error(`You can't generate a key with less than one character`);
+  }
+  if(useLowerCase == false && useUpperCase == false && useNumbers == false && useSpecial == false) {
+    throw Error(`You can't generate a key wihtout putting the characters that I have to use`);
+  }
+  return keyGen(length, useLowerCase, useUpperCase, useNumbers, useSpecial, false)
+}
 function gen(strength) {
   switch (strength) {
   case 'decent_pw':
@@ -61,5 +69,6 @@ function gen(strength) {
   }
 }
 module.exports = {
-    gen
+    gen,
+    genCustom
 }
