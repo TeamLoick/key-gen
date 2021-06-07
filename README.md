@@ -55,7 +55,11 @@ A node js package that give you the oportunity to generate infinite keys/ids.
       var custom = genCustom(numberOfCharacters, useLowerCase, useUpperCase, useNumbers, useSpecial)
    ```
    **numberOfCharacters:** Here you have to put an int with the number of characters that you want.
+
    **useLowerCase:** Here you have to an Boolean if you want lower case use true if not use false.
-   **useUpperCase:** Here you have to an Boolean if you want upper case use true if not use false
-   **useNumbers:** Here you have to an Boolean if you want numbers use true if not use false
-   **useSpecial:** Here you have to an Boolean if you want special characters use true if not use false
+
+   **useUpperCase:** Here you have to an Boolean if you want upper case use true if not use false.
+
+   **useNumbers:** Here you have to an Boolean if you want numbers use true if not use false.
+   
+   **useSpecial:** Here you have to an Boolean if you want special characters use true if not use false.
