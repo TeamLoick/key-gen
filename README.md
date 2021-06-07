@@ -1,4 +1,3 @@
-<<<<<<< Updated upstream
 <a href="https://github.com/TeamLoick/key-gen/edit/main/README.md">> Spanish Docs?</a>
 <p align="center">
 	<img align="center" src="https://media.discordapp.net/attachments/847157141122056263/850572010508648468/RenderedImage.png">
