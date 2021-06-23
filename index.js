@@ -1,5 +1,3 @@
-
-
 const lowerCase = 'abcdefghijklmnopqrstuvwxyz';
 const upperCase = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
 const numbers = '1234567890';
@@ -67,6 +65,6 @@ function gen(strength) {
   }
 }
 module.exports = {
-    gen,
-    genCustom,
+  gen,
+  genCustom
 }
