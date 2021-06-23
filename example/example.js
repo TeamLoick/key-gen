@@ -1,4 +1,4 @@
-const {gen, genCustom} = require('../index.js')
+const {gen, genCustom, genHash} = require('../index.js')
 
     var decent = gen('decent_pw')
     console.log(decent)

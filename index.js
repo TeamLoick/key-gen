@@ -6,9 +6,6 @@ const numbers = '1234567890';
 const special = '`~!@#$%^&*()-=_+[]{}|;\':",./<>?';
 const hex = '123456789ABCDEF';
 
-function random() {
-  return Math.random();
-}
 
 function keyGen(
   length,
@@ -28,11 +25,12 @@ function keyGen(
   if (useHex) chars += hex;
 
   for (let i = 0; i < length; i++) {
-    key += chars[Math.floor(random() * chars.length)];
+    key += chars[Math.floor(Math.random() * chars.length)];
   }
 
   return key;
 }
+
 function genCustom(length, useLowerCase, useUpperCase, useNumbers, useSpecial) {
   if(length <= 0) {
     throw Error(`You can't generate a key with less than one character`);
@@ -70,5 +68,5 @@ function gen(strength) {
 }
 module.exports = {
     gen,
-    genCustom
+    genCustom,
 }
