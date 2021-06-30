@@ -207,7 +207,6 @@ function encrypt(key) {
         }
      
     }
-    console.log(newkey.join(''))
     var key1 = newkey.join('')
     fs.readFile(file,  function(err, data){
         write(err, data, key1, a1,n1)
@@ -286,16 +285,15 @@ function decrypt(key) {
         var keya = keyarr[i].toUpperCase()
         var postion = a1.indexOf(keya)
         if(a0[postion] === undefined) {
-            console.log(keyarr[i].toUpperCase())
             if(Number.isInteger(parseInt(keyarr[i]))){
                 var postion1 = n1.indexOf(keyarr[i].toUpperCase())
                 newkey.push(n0[postion1])
             } else {
-        if(position1 === undefined) {
+            var postion1 = a1.indexOf(keyarr[i])
+        if(postion1 === undefined) {
             newkey.push(keyarr[i].toUpperCase())
         } else {
-            var postion1 = a1.indexOf(keyarr[i])
-            newkey.push(a0[postion])    
+            newkey.push(a0[postion1])    
         }
             }
         } else {
@@ -307,5 +305,5 @@ function decrypt(key) {
     return newkey.join('')
 }
 
-var key = decrypt('θCT1Zμθ1ρXGT1')
+var key = decrypt('QNβQ')
 console.log(key)

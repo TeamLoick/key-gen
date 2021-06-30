@@ -1,6 +1,6 @@
 {
   "name": "@teamloick/key.gen",
-  "version": "1.2.3",
+  "version": "1.3.1",
   "description": "An OpenSource node js package that gives you the oportunity to generate infinite keys/ids",
   "main": "index.js",
   "repository": {
