@@ -63,3 +63,9 @@ A node js package that give you the oportunity to generate infinite keys/ids.
    **useNumbers:** Here you have to an Boolean if you want numbers use true if not use false.
    
    **useSpecial:** Here you have to an Boolean if you want special characters use true if not use false.
+
+
+##Links
+*[Discord](https://discord.gg/ux9UKq6Wvg)
+*[Github](https://github.com/TeamLoick/key-gen)
+*[NPM](https://www.npmjs.com/package/@teamloick/key.gen)
