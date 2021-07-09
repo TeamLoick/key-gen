@@ -63,7 +63,11 @@ Un paquete de node js que le da la oportunidad de generar claves / ids infinitos
    **useNumbers:** Aquí tienes un booleano si quieres números usa verdadero si no usa falso.
    
    **useSpecial:** Aquí tienes un booleano si quieres caracteres especiales usa verdadero si no usa falso.
-##Links
-*[Discord](https://discord.gg/ux9UKq6Wvg)
-*[Github](https://github.com/TeamLoick/key-gen)
-*[NPM](https://www.npmjs.com/package/@teamloick/key.gen)
+   
+## Links
+
+* [Discord](https://discord.gg/ux9UKq6Wvg)
+
+* [Github](https://github.com/TeamLoick/key-gen)
+
+* [NPM](https://www.npmjs.com/package/@teamloick/key.gen)
