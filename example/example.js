@@ -43,9 +43,9 @@ const KeyGen = require('../index.js')
     var custom = KeyGen.genCustom(10, true, true, false, false)
     console.log(custom)
     //jOqkYqfpdt
-    var encrypt = KeyGen.beta.encrypt('contraseña')
+    var encrypt = KeyGen.beta.encrypt('clave')
     console.log(encrypt)
-    //IHPUABκGÑB
-    var decrypt = KeyGen.beta.decrypt('IHPUABκGÑB')
+    //PFIRL
+    var decrypt = KeyGen.beta.decrypt('PFIRL')
     console.log(decrypt)
-    //CONTRASEA
+    //CLAME

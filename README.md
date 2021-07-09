@@ -64,6 +64,13 @@ A node js package that give you the oportunity to generate infinite keys/ids.
    
    **useSpecial:** Here you have to an Boolean if you want special characters use true if not use false.
 
+   ### Encryption
+   ```
+   const KeyGen = require('@teamloick/key.gen')
+
+   var encrypt = KeyGen.beta.encrypt('key')
+   var decrypt = KeyGen.beta.decrypt(encrypt)
+   ```
 ## Links
 
 * [Discord](https://discord.gg/ux9UKq6Wvg)

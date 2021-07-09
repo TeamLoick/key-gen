@@ -64,6 +64,13 @@ Un paquete de node js que le da la oportunidad de generar claves / ids infinitos
    
    **useSpecial:** Aquí tienes un booleano si quieres caracteres especiales usa verdadero si no usa falso.
    
+   ### Encriptación
+   ```
+   const KeyGen = require('@teamloick/key.gen')
+
+   var encrypt = KeyGen.beta.encrypt('clave')
+   var decrypt = KeyGen.beta.decrypt(encrypt)
+   ```
 ## Links
 
 * [Discord](https://discord.gg/ux9UKq6Wvg)

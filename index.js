@@ -30,7 +30,7 @@ function keyGen(
   return key;
 }
 function encrypt(key) {
-  var a0 = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"]
+  var a0 = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","Ñ","O","P","Q","R","S","T","U","V","W","X","Y","Z"]
   var n0 = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
   var a1 = []
   var g0 = ['α', 'β', 'ε', 'η', 'θ', 'ι', 'κ', 'μ', 'ρ', 'τ', 'υ', 'χ', 'ω']
@@ -281,7 +281,7 @@ function encrypt(key) {
   return newkey.join('')
 }
 function decrypt(key) {
-  var a0 = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"]
+  var a0 = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","Ñ", "O","P","Q","R","S","T","U","V","W","X","Y","Z"]
   var n0 = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
   var n1 = []
   var a1= []
@@ -366,6 +366,7 @@ function gen(strength) {
     throw Error(`No such strength "${strength}"`);
   }
 }
+
 module.exports = {
     gen,
     genCustom,
